@@ -15,7 +15,10 @@ else if ( dept == 'art') {
 
 //Question 5
 let arr = []
+function getSquares(){
 for (let i =2; i<2000; i *= 2){
     arr.push(i)
-    console.log(i)
 }
+console.log(arr)
+}
+getSquares()
